@@ -26,7 +26,7 @@
 
             echo"<p>You have ordered {$count} x {$item}(s) and your total is: \$" . number_format($total, 2) . "</p>";
         } else {
-            echo"<p>Please enter a valid quantity.</p>";
+            echo"<p>Please enter a valid quantity, cannot be 0 or negative</p>";
         }
         
     }
